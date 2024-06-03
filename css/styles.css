@@ -36,6 +36,39 @@ body{
     background-color: #f8f8f8; 
 }
 
+.item img{
+    width: 87px;
+    height: 84px;
+    margin-top: 25px;
+}
+
+.item2 h2{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin: 29px 0 18px 0;
+}
+
+.item2 p{
+    color: #7b7881;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+button{
+    background-color: #111010;
+    width: 264px;
+    height: 55px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
 
 /*Gallery Item3*/
 .item3{
