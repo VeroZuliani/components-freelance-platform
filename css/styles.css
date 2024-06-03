@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+:root{
+    --gallery-text-color:#000000;
+    --gallery-font-style:normal;
+    --gallery-font-family: "Roboto", sans-serif;
+}
+
 body{
     background-color: #e3e2e2;
     width: 100vh;
@@ -44,19 +50,19 @@ body{
 }
 
 .item2 h2{
-    color: #000000;
-    font-family: "Roboto", sans-serif;
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
     font-weight: 500;
-    font-style: normal;
+    font-style: var(--gallery-font-style);
     font-size: 20px;
     margin: 29px 0 18px 0;
 }
 
 .item2 p{
     color: #7b7881;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--gallery-font-family);
     font-weight: 400;
-    font-style: normal;
+    font-style: var(--gallery-font-style);
     font-size: 15px;
     margin-bottom: 25px;
 }
@@ -95,10 +101,10 @@ button{
 }
 
 .item4 h1{
-    color: #000000;
-    font-family: "Roboto", sans-serif;
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
     font-weight: 500;
-    font-style: normal;
+    font-style: var(--gallery-font-style);
     font-size: 18px;
     margin-right: 118px;
 }
@@ -106,25 +112,25 @@ button{
 .option-income{
     width: 82px;
     height: 31px;
-    color: #000000;
+    color: var(--gallery-text-color);
     background-color: #f6f6f8;
     border-radius: 5px;
 }
 
 
 .april h2{
-    color: #000000;
-    font-family: "Roboto", sans-serif;
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
     font-weight: 500;
-    font-style: normal;
+    font-style: var(--gallery-font-style);
     font-size: 18px;
 }
 
 .textApril{
     color: #7b7881;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--gallery-font-family);
     font-weight: 400;
-    font-style: normal;
+    font-style: var(--gallery-font-style);
     font-size: 15px;
     margin-right: 220px;
 } 
@@ -135,18 +141,18 @@ hr{
 }
 
 .march h2{
-    color: #000000;
-    font-family: "Roboto", sans-serif;
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
     font-weight: 500;
-    font-style: normal;
+    font-style: var(--gallery-font-style);
     font-size: 18px;
 }
 
 .textMarch{
     color: #7b7881;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--gallery-font-family);
     font-weight: 400;
-    font-style: normal;
+    font-style: var(--gallery-font-style);
     font-size: 15px;
     margin-right: 220px;
 }
