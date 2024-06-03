@@ -110,6 +110,7 @@ button{
     border-radius: 5px;
 }
 
+
 .april h2{
     color: #000000;
     font-family: "Roboto", sans-serif;
@@ -124,9 +125,11 @@ button{
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
-}
+    margin-left: 18px;
+} 
 
 hr{
+    color: #7b7881;
     margin: 12px 18px 16px 18px;
 }
 
@@ -144,5 +147,43 @@ hr{
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
+    margin-right: 18px;
 }
 
+.april{
+    display: flex;
+    justify-content: center;
+}
+
+.item-april{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-left: 65px;
+}
+
+.flex-item{
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.april1{
+    background-color: #3c94f7;
+    flex-basis: 50px;
+}
+
+.april2{
+    background-color: #ff91e0;
+    flex-basis: 41px;
+}
+
+.april3{
+    background-color: #fdbd12;
+    flex-basis: 12px;
+}
+    
+.april4{
+    background-color: #f76a37;
+    flex-basis: 17px;
+}
