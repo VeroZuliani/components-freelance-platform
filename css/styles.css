@@ -99,6 +99,7 @@ button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 18px;
     margin-right: 118px;
 }
 
@@ -119,13 +120,13 @@ button{
     font-size: 18px;
 }
 
-.april h3{
+.textApril{
     color: #7b7881;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
-    margin-left: 18px;
+    margin-right: 220px;
 } 
 
 hr{
@@ -141,26 +142,18 @@ hr{
     font-size: 18px;
 }
 
-.march h3{
+.textMarch{
     color: #7b7881;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
-    margin-right: 18px;
+    margin-right: 220px;
 }
 
-.april{
+.april, .march{
     display: flex;
     justify-content: center;
-}
-
-.item-april{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-    margin-left: 65px;
 }
 
 .flex-item{
@@ -171,6 +164,7 @@ hr{
 .april1{
     background-color: #3c94f7;
     flex-basis: 50px;
+    margin-left: 60px; 
 }
 
 .april2{
@@ -186,4 +180,26 @@ hr{
 .april4{
     background-color: #f76a37;
     flex-basis: 17px;
+}
+
+
+.march1{
+    background-color: #3c94f7;
+    flex-basis: 19px;
+    margin-left: 60px;
+}
+
+.march2{
+    background-color: #ff91e0;
+    flex-basis: 62px;
+}
+
+.march3{
+    background-color: #fdbd12;
+    flex-basis: 36px;
+}
+    
+.march4{
+    background-color: #f76a37;
+    flex-basis: 7px;
 }
