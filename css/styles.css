@@ -83,7 +83,7 @@ button{
 /*Gallery Item4*/
 .item4{
     width: 294px;
-    height: 182px;
+    height: 195px;
     background-color: #fdfdfd;
 }
 
@@ -110,5 +110,39 @@ button{
     border-radius: 5px;
 }
 
+.april h2{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
 
+.april h3{
+    color: #7b7881;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+hr{
+    margin: 12px 18px 16px 18px;
+}
+
+.march h2{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.march h3{
+    color: #7b7881;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
 
