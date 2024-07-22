@@ -35,6 +35,131 @@ body{
     margin-bottom: 37px; 
 }
 
+.datosPerfil{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.fotoPerfil{
+    width: 36px;
+    height: 36px;
+    margin-right: 13px;
+    border-radius: 20px;
+}
+
+.perfil{
+    flex-direction: column;
+    text-align: left;
+}
+
+.nomPerfil{
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.posteo{
+    color: #b4b6b7;
+    font-family: var(--gallery-font-family);
+    font-weight: var(--gallery-font-style);
+    font-size: 12px;
+}
+
+.like{
+    width: 28px;
+    height: 28px;
+    background-color: #f6f7f8;
+    border: 1px solid #d0d2d1;
+    border-radius: 5px;
+    margin: 5px 0 0 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart{
+    width: 15px;
+    height: 15px;
+}
+
+.title{
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    margin: 12px 29px 8px 13px;
+}
+
+.subtitle{
+    color: #b4b6b7;
+    font-family: var(--gallery-font-family);
+    font-weight: var(--gallery-font-style);
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.skill{
+    display: flex;
+    justify-content: start;
+    margin-left: 13px;
+    margin-bottom: 15px;
+}
+
+.flex-item1{
+    background-color: #d9e2fc;
+    padding: 2px 6px;
+    font-family: var(--gallery-font-family);
+    font-weight: var(--gallery-font-style);
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.item1 hr{
+    border-style: dotted;
+    color: #e4e4e4;
+    margin-top: 17px;
+}
+
+.tarifa{
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    margin: 10px 0 10px 15px;
+}
+
+.modoTrabajo{
+    color: #b4b6b7;
+    font-family: var(--gallery-font-family);
+    font-weight: var(--gallery-font-style);
+    font-size: 12px;
+    margin: 0 0 22px 15px;
+    text-align: left;
+}
+
+.btn-Apply{
+    background-color: #397cf8;
+    width: 264px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 0 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rayo{
+    margin-right: 8px;
+}
 
 /*Gallery Item2*/
 .item2{
@@ -69,11 +194,12 @@ body{
     font-size: 14px;
 }
 
-button{
+.btn-JoinNow{
     background-color: #111010;
     width: 264px;
     height: 55px;
     border-radius: 15px;
+    border: none;
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 10px;
@@ -87,6 +213,7 @@ button{
     background-color: #383737;
     margin:10px 0 37px 0;
 }
+
 
 
 /*Gallery Item4*/
@@ -139,7 +266,7 @@ button{
 } 
 
 hr{
-    color: #7b7881;
+    color: #e4e4e4;
     margin: 12px 18px 16px 18px;
 }
 
