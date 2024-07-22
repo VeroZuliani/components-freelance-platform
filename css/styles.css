@@ -43,7 +43,7 @@ body{
     background-color: #f8f8f8; 
 }
 
-.item img{
+.item2 img{
     width: 87px;
     height: 84px;
     margin-top: 25px;
@@ -55,7 +55,7 @@ body{
     font-weight: 500;
     font-style: var(--gallery-font-style);
     font-size: 20px;
-    margin: 29px 0 18px 0;
+    margin: 20px 0 10px 0;
 }
 
 .item2 p{
@@ -64,7 +64,9 @@ body{
     font-weight: 400;
     font-style: var(--gallery-font-style);
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    padding: 0 10px 0 10px;
+    font-size: 14px;
 }
 
 button{
@@ -74,6 +76,7 @@ button{
     border-radius: 15px;
     color: #ffffff;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 
