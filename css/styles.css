@@ -161,6 +161,7 @@ body{
     margin-right: 8px;
 }
 
+
 /*Gallery Item2*/
 .item2{
     width: 294px;
@@ -210,10 +211,189 @@ body{
 .item3{
     width: 294px;
     height: 438px;
-    background-color: #383737;
+    background-color: #272727;
     margin:10px 0 37px 0;
 }
 
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 0 15px;
+    padding: 20px 0 5px 0;
+}
+
+.stats h2{
+    color: #f1f1f1;
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.option-stats{
+    width: 82px;
+    height: 31px;
+    color: #dcdcdd;
+    background-color: #464647;
+    border-radius: 5px;
+    border: 1px solid #575757;
+    padding-left: 4px;
+}
+
+.item3 h3{
+    color: #f1f1f1;
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+}
+
+.earnings{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+}
+
+.prec-earnings{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 4px 0 2px 0;
+}
+
+.entero{
+    color: #fefefe;
+}
+
+.dec{
+    color: #717171;
+}
+
+.data-earnings{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.prec{
+    padding-right: 4px;
+    color: #1ee83e;
+}
+
+.data{
+    color: #fefefe;
+}
+
+.projects, .clients{
+    width: 128px;
+    height: 53px;
+    background-color: #464647;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.projects-clients{
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 15px 0 15px;
+}
+
+.data-projects, .data-clients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+}
+
+.data-projects h2, .data-clients h2{
+    color: #dcdcdd;
+    font-size: 25px;
+    font-weight: 400;
+    padding-right: 4px;
+}
+
+.data-projects h3, .data-clients h3{
+    color: #7b7881;
+    font-size: 14px;
+}
+
+.month-projects, .month-clients{
+    display: flex;
+    justify-content: flex-start;
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.month-projects h4, .month-clients h4{
+    color: #dcdcdd;
+    padding-right: 4px;
+    font-weight: 400;
+}
+
+.month-projects p, .month-clients p{
+    color: #7b7881;
+}
+
+.place{
+    height: 70px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 15px 21px 15px;
+    padding: 0 15px 0 15px;
+}
+
+.data-place{
+    text-align: left;
+}
+
+.data-place h2{
+    color: var(--gallery-text-color);
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.data-place p{
+    color: #7b7881;
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.availability{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.availability p{
+    text-align: left;
+    color: #7b7881;
+    font-family: var(--gallery-font-family);
+    font-style: var(--gallery-font-style);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.availability img{
+    margin-right:15px;
+}
 
 
 /*Gallery Item4*/
@@ -233,7 +413,6 @@ body{
 .item4 h1{
     color: var(--gallery-text-color);
     font-family: var(--gallery-font-family);
-    font-weight: 500;
     font-style: var(--gallery-font-style);
     font-size: 18px;
     margin-right: 118px;
@@ -245,6 +424,7 @@ body{
     color: var(--gallery-text-color);
     background-color: #f6f6f8;
     border-radius: 5px;
+    border: 1px solid #d0d2d1;
 }
 
 
